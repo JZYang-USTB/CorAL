@@ -1,0 +1,46 @@
+{
+  "base_setting": {
+    "sampleId": 2,
+    "storageSlotNo": 1,
+    "directDisassembly": false
+  },
+  "infos": [
+    {
+      "testParams": [
+        {
+          "number": 1,
+          "type": 0,
+          "machineID": 1,
+          "parama": {
+            "temperatureC": "$temperature_c"
+          }
+        },
+        {
+          "number": 2,
+          "type": 1,
+          "machineID": 1,
+          "parama": {
+            "highFrequencyHz": "$eis_high_frequency_hz",
+            "lowFrequencyHz": "$eis_low_frequency_hz",
+            "amplitudeMv": "$eis_amplitude_mv"
+          }
+        }
+      ]
+    },
+    {
+      "waitMinute": 5,
+      "testParams": [
+        {
+          "number": 3,
+          "type": 2,
+          "machineID": 1,
+          "parama": {
+            "startV": "$pdp_low_v",
+            "endV": "$pdp_high_v",
+            "scanRateMvPerS": "$pdp_scan_rate_mv_per_s"
+          }
+        }
+      ]
+    }
+  ]
+}

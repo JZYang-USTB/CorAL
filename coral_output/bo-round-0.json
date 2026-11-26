@@ -1,0 +1,362 @@
+{
+  "observations": 31,
+  "grid_size": 1771,
+  "unmeasured_grid_size": 1740,
+  "best_observed_ie_pct": 80.43,
+  "bootstrap_models": 50,
+  "cv_folds": 10,
+  "bootstrap_seed_start": 0,
+  "best_parameters": [
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 5,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 5,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 5,
+      "min_samples_split": 20,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 5,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 5,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    {
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 10
+    }
+  ],
+  "proposals": [
+    {
+      "composition_pct": [
+        25,
+        35,
+        0,
+        40
+      ],
+      "mean_ie_pct": 71.22411479415825,
+      "sd_ie_pct": 7.560206820357945,
+      "expected_improvement_pct": 0.40899629842654117
+    },
+    {
+      "composition_pct": [
+        20,
+        35,
+        5,
+        40
+      ],
+      "mean_ie_pct": 71.28023679415827,
+      "sd_ie_pct": 7.4549442437182085,
+      "expected_improvement_pct": 0.395321178914934
+    },
+    {
+      "composition_pct": [
+        15,
+        45,
+        0,
+        40
+      ],
+      "mean_ie_pct": 73.8636306362777,
+      "sd_ie_pct": 5.324100000952092,
+      "expected_improvement_pct": 0.2788426231447402
+    },
+    {
+      "composition_pct": [
+        15,
+        40,
+        5,
+        40
+      ],
+      "mean_ie_pct": 73.8304866362777,
+      "sd_ie_pct": 5.332796790634371,
+      "expected_improvement_pct": 0.27686944870386465
+    },
+    {
+      "composition_pct": [
+        20,
+        35,
+        0,
+        45
+      ],
+      "mean_ie_pct": 70.14877479415823,
+      "sd_ie_pct": 7.257027454809857,
+      "expected_improvement_pct": 0.2564497494438631
+    }
+  ],
+  "feature_order": [
+    "TSC",
+    "CTAB",
+    "Cys",
+    "ZnSO4"
+  ],
+  "source_rows": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31"
+  ],
+  "through_round": 0,
+  "input": {
+    "file": "tsc_bo.csv",
+    "sha256": "62ac93b664fa7df57b7917626ca00fd50320ed828d083037a951248994636d41"
+  }
+}

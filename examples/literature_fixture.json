@@ -1,0 +1,37 @@
+{
+  "mode": "published_literature_case",
+  "scope": "Single-publication example using group assignments from the archived CorAL catalog.",
+  "identities": [
+    {
+      "molecule_id": "M0336",
+      "aliases": ["laminarin", "LA"]
+    },
+    {
+      "molecule_id": "M0578",
+      "aliases": ["sodium molybdate", "SM"]
+    }
+  ],
+  "studies": [
+    {
+      "publication_id": "10.1016/j.colsurfa.2021.128199",
+      "source": {
+        "authors": "Weiwei Zhang et al.",
+        "title": "Laminarin and sodium molybdate as efficient sustainable inhibitor for Q235 steel in sodium chloride solution",
+        "journal": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
+        "year": 2022,
+        "volume": 637,
+        "article_number": "128199",
+        "url": "https://doi.org/10.1016/j.colsurfa.2021.128199",
+        "abstract_pdf_page": 1,
+        "conclusion_pdf_page": 7
+      },
+      "abstract": "laminarin (LA) and sodium molybdate (SM)",
+      "conclusion": "LA–SM mixture has been developed as efficient eco-friendly corrosion inhibitor",
+      "reported_formulation": {
+        "source_locator": "Table 3, PDF page 5",
+        "laminarin_g_per_l": 0.3,
+        "sodium_molybdate_g_per_l": 0.7
+      }
+    }
+  ]
+}

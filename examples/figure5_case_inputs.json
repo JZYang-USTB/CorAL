@@ -1,0 +1,16 @@
+{
+  "comparison": "Figure 5f, Formulation 1",
+  "sources": {
+    "descriptors": "Displayed values in CorAL manuscript Figure 5d",
+    "initial_feedback": "Displayed CTAB and TTAB labels in Figure 5f (Formulation 1)",
+    "follow_up": "Displayed DDBAB label in Figure 5f (Formulation 1)"
+  },
+  "reference": {"surfactant": "CTAB", "inhibition_efficiency_pct": 92.5},
+  "initial_feedback": {"surfactant": "TTAB", "inhibition_efficiency_pct": 91.4},
+  "follow_up": {"surfactant": "DDBAB", "inhibition_efficiency_pct": 94.4},
+  "descriptors": {
+    "CTAB": {"logP": 6.17, "RadiusOfGyration": 5.98, "LabuteASA": 188.29},
+    "TTAB": {"logP": 5.39, "RadiusOfGyration": 5.39, "LabuteASA": 169.94},
+    "DDBAB": {"logP": 6.18, "RadiusOfGyration": 5.12, "LabuteASA": 192.26}
+  }
+}

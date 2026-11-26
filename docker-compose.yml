@@ -1,0 +1,17 @@
+services:
+  coral-api:
+    build: .
+    ports:
+      - "127.0.0.1:${CORAL_PORT:-18000}:8000"
+    environment:
+      CORAL_LLM_MODE: "${CORAL_LLM_MODE:-offline}"
+      CORAL_LLM_BASE_URL: "${CORAL_LLM_BASE_URL:-https://api.deepseek.com}"
+      CORAL_LLM_MODEL: "${CORAL_LLM_MODEL:-deepseek-v4-pro}"
+      CORAL_LLM_THINKING: "${CORAL_LLM_THINKING:-disabled}"
+      CORAL_LLM_API_KEY: "${CORAL_LLM_API_KEY:-}"
+      CORAL_BO_WORKERS: "${CORAL_BO_WORKERS:-1}"
+    volumes:
+      - coral_data:/data
+      - "${CORAL_HOST_CORPUS:-./corpus}:/corpus:ro"
+volumes:
+  coral_data:

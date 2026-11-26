@@ -1,0 +1,91 @@
+{
+  "classification_source": "archived_catalog",
+  "screened_publications": [
+    "10.1016/j.colsurfa.2021.128199"
+  ],
+  "extracted_formulations": [
+    {
+      "publication_id": "10.1016/j.colsurfa.2021.128199",
+      "section": "conclusion",
+      "evidence": "LA\u2013SM mixture has been developed as efficient eco-friendly corrosion inhibitor",
+      "method": "offline_alias_match",
+      "components": [
+        {
+          "name": "la"
+        },
+        {
+          "name": "sm"
+        }
+      ]
+    }
+  ],
+  "classified_formulations": [
+    {
+      "publication_id": "10.1016/j.colsurfa.2021.128199",
+      "section": "conclusion",
+      "evidence": "LA\u2013SM mixture has been developed as efficient eco-friendly corrosion inhibitor",
+      "method": "offline_alias_match",
+      "components": [
+        {
+          "reported_component": {
+            "name": "la"
+          },
+          "molecule_id": "M0336",
+          "name": "laminarin (LA)",
+          "group": 8
+        },
+        {
+          "reported_component": {
+            "name": "sm"
+          },
+          "molecule_id": "M0578",
+          "name": "sodium molybdate",
+          "group": 11
+        }
+      ],
+      "molecular_pairs": [
+        {
+          "molecule_ids": [
+            "M0336",
+            "M0578"
+          ],
+          "groups": [
+            8,
+            11
+          ]
+        }
+      ],
+      "group_pairs": [
+        [
+          8,
+          11
+        ]
+      ]
+    }
+  ],
+  "pair_frequencies": [
+    {
+      "pair": [
+        8,
+        11
+      ],
+      "frequency": 1
+    }
+  ],
+  "by_publication": {
+    "10.1016/j.colsurfa.2021.128199": {
+      "8-11": 1
+    }
+  },
+  "unresolved_or_ambiguous": [],
+  "model_calls": {},
+  "catalog": {
+    "file": "molecular_descriptors.csv",
+    "sha256": "e4d4cd6f4bf5ced74ebb7a8424ec7d7ca8230f1f2470644dda6c4ee9d3eef325"
+  },
+  "input_scope": "published_literature_case",
+  "input": {
+    "file": "literature_fixture.json",
+    "sha256": "731769aeb282369780c54bc1a374ee7c15f9f1fbc0b493708c4fb6d323bc6faf"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "taskName": "CorAL electrochemical interface replay",
+  "type": 4,
+  "sampleId": 2,
+  "sampleType": 1,
+  "machineID": 1,
+  "slowRelease": [0, 0, 0, 0, 0, 0, 0, 0],
+  "waterSecond": 5,
+  "airSecond": 8,
+  "info": {
+    "sub_type": 33,
+    "estimateMinute": 15,
+    "testParam": {
+      "isVolEIS": true,
+      "StartFreq": "$eis_high_frequency_hz",
+      "EndFreq": "$eis_low_frequency_hz",
+      "Amplitude": "$eis_amplitude_v",
+      "IntervalType": 1,
+      "PointCount": 10,
+      "Voltage": 0,
+      "VoltageVSType": 1,
+      "isVoltageRandAuto": 1,
+      "isCurrentRandAuto": 1,
+      "isVoltageFilterAuto": 1,
+      "isCurrentFilterAuto": 1,
+      "delayTime": 0
+    }
+  }
+}

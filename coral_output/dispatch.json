@@ -1,0 +1,703 @@
+{
+  "mode": "device_replay",
+  "task_id": "lab-demo-001",
+  "task_state": 2,
+  "subtask_state": 2,
+  "request": {
+    "path": "/api/v1/experiment-tasks",
+    "body": {
+      "deviceName": 2,
+      "experimentName": 204,
+      "experimentParams": {
+        "taskName": "CorAL electrochemical interface replay",
+        "type": 4,
+        "sampleId": 2,
+        "sampleType": 1,
+        "machineID": 1,
+        "slowRelease": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "waterSecond": 5,
+        "airSecond": 8,
+        "info": {
+          "sub_type": 33,
+          "waitHour": 24,
+          "waitMinute": 0,
+          "waitSecond": 0,
+          "estimateHour": 0,
+          "estimateMinute": 15,
+          "estimateSecond": 0,
+          "testParam": {
+            "isVolEIS": true,
+            "StartFreq": 100000,
+            "EndFreq": 0.01,
+            "Amplitude": 0.005,
+            "IntervalType": 1,
+            "PointCount": 10,
+            "Voltage": 0,
+            "VoltageVSType": 1,
+            "isVoltageRandAuto": 1,
+            "isCurrentRandAuto": 1,
+            "isVoltageFilterAuto": 1,
+            "isCurrentFilterAuto": 1,
+            "delayTime": 0
+          }
+        }
+      }
+    }
+  },
+  "steps": [
+    {
+      "task_no": 5,
+      "round_no": 0,
+      "transport": "plc_write",
+      "payload": {
+        "task_id": "lab-demo-001",
+        "sample_id": 2,
+        "storage_slot": 1,
+        "task_no": 5,
+        "device_cmd": 5,
+        "round_no": 0,
+        "assembly_settings": {
+          "sampleId": 2,
+          "storageSlotNo": 1,
+          "directDisassembly": false
+        }
+      }
+    },
+    {
+      "task_no": 0,
+      "round_no": 1,
+      "transport": "timer",
+      "payload": {
+        "wait_seconds": 86400
+      }
+    },
+    {
+      "task_no": 6,
+      "round_no": 1,
+      "transport": "plc_write",
+      "payload": {
+        "task_id": "lab-demo-001",
+        "sample_id": 2,
+        "storage_slot": 1,
+        "task_no": 6,
+        "device_cmd": 6,
+        "round_no": 1,
+        "machine_id": 1
+      }
+    },
+    {
+      "task_no": -6,
+      "round_no": 1,
+      "transport": "hmi_ctrl",
+      "payload": {
+        "task_id": "lab-demo-001",
+        "round_no": 1,
+        "machineID": 1,
+        "test": {
+          "id": "lab-demo-001-R1",
+          "items": [
+            {
+              "number": 1,
+              "type": 0,
+              "parama": {
+                "temperatureC": 25.0
+              },
+              "machineID": 1
+            },
+            {
+              "number": 2,
+              "type": 1,
+              "parama": {
+                "highFrequencyHz": 100000,
+                "lowFrequencyHz": 0.01,
+                "amplitudeMv": 5
+              },
+              "machineID": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "task_no": 9,
+      "round_no": 2,
+      "transport": "plc_write",
+      "payload": {
+        "task_id": "lab-demo-001",
+        "sample_id": 2,
+        "storage_slot": 1,
+        "task_no": 9,
+        "device_cmd": 9,
+        "round_no": 2,
+        "machine_id": 1,
+        "wait_seconds": 300
+      }
+    },
+    {
+      "task_no": 0,
+      "round_no": 2,
+      "transport": "timer",
+      "payload": {
+        "wait_seconds": 300
+      }
+    },
+    {
+      "task_no": 6,
+      "round_no": 2,
+      "transport": "plc_write",
+      "payload": {
+        "task_id": "lab-demo-001",
+        "sample_id": 2,
+        "storage_slot": 1,
+        "task_no": 6,
+        "device_cmd": 6,
+        "round_no": 2,
+        "machine_id": 1
+      }
+    },
+    {
+      "task_no": -6,
+      "round_no": 2,
+      "transport": "hmi_ctrl",
+      "payload": {
+        "task_id": "lab-demo-001",
+        "round_no": 2,
+        "machineID": 1,
+        "test": {
+          "id": "lab-demo-001-R2",
+          "items": [
+            {
+              "number": 3,
+              "type": 2,
+              "parama": {
+                "startV": -0.3,
+                "endV": 0.3,
+                "scanRateMvPerS": 0.167
+              },
+              "machineID": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "task_no": 7,
+      "round_no": 0,
+      "transport": "plc_write",
+      "payload": {
+        "task_id": "lab-demo-001",
+        "sample_id": 2,
+        "storage_slot": 1,
+        "task_no": 7,
+        "device_cmd": 7,
+        "round_no": 0,
+        "machine_id": 1
+      }
+    }
+  ],
+  "trace": [
+    {
+      "channel": "plc_read",
+      "initialized": true,
+      "automatic": true
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": "lab-demo-001",
+      "sample_id": 2,
+      "storage_slot": 1,
+      "task_no": 5,
+      "device_cmd": 5,
+      "round_no": 0,
+      "assembly_settings": {
+        "sampleId": 2,
+        "storageSlotNo": 1,
+        "directDisassembly": false
+      }
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 1
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "task_id": "lab-demo-001",
+      "device_cmd": 5,
+      "device_state": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": 0,
+      "sample_id": 0,
+      "storage_slot": 0,
+      "task_no": 0,
+      "device_cmd": 0,
+      "round_no": 0,
+      "assembly_settings": 0
+    },
+    {
+      "channel": "timer",
+      "round_no": 1,
+      "wait_seconds": 86400
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": "lab-demo-001",
+      "sample_id": 2,
+      "storage_slot": 1,
+      "task_no": 6,
+      "device_cmd": 6,
+      "round_no": 1,
+      "machine_id": 1
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 1
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "task_id": "lab-demo-001",
+      "device_cmd": 6,
+      "device_state": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": 0,
+      "sample_id": 0,
+      "storage_slot": 0,
+      "task_no": 0,
+      "device_cmd": 0,
+      "round_no": 0,
+      "machine_id": 0
+    },
+    {
+      "channel": "hmi_ctrl",
+      "topic": "dhx/hmi/ctrl",
+      "task_id": "lab-demo-001",
+      "round_no": 1,
+      "machineID": 1,
+      "test": {
+        "id": "lab-demo-001-R1",
+        "items": [
+          {
+            "number": 1,
+            "type": 0,
+            "parama": {
+              "temperatureC": 25.0
+            },
+            "machineID": 1
+          },
+          {
+            "number": 2,
+            "type": 1,
+            "parama": {
+              "highFrequencyHz": 100000,
+              "lowFrequencyHz": 0.01,
+              "amplitudeMv": 5
+            },
+            "machineID": 1
+          }
+        ]
+      }
+    },
+    {
+      "channel": "hmi_view",
+      "task_id": "lab-demo-001",
+      "round_no": 1,
+      "machineID": 1,
+      "device_state": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": "lab-demo-001",
+      "sample_id": 2,
+      "storage_slot": 1,
+      "task_no": 9,
+      "device_cmd": 9,
+      "round_no": 2,
+      "machine_id": 1,
+      "wait_seconds": 300
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 1
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "task_id": "lab-demo-001",
+      "device_cmd": 9,
+      "device_state": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": 0,
+      "sample_id": 0,
+      "storage_slot": 0,
+      "task_no": 0,
+      "device_cmd": 0,
+      "round_no": 0,
+      "machine_id": 0,
+      "wait_seconds": 0
+    },
+    {
+      "channel": "timer",
+      "round_no": 2,
+      "wait_seconds": 300
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": "lab-demo-001",
+      "sample_id": 2,
+      "storage_slot": 1,
+      "task_no": 6,
+      "device_cmd": 6,
+      "round_no": 2,
+      "machine_id": 1
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 1
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "task_id": "lab-demo-001",
+      "device_cmd": 6,
+      "device_state": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": 0,
+      "sample_id": 0,
+      "storage_slot": 0,
+      "task_no": 0,
+      "device_cmd": 0,
+      "round_no": 0,
+      "machine_id": 0
+    },
+    {
+      "channel": "hmi_ctrl",
+      "topic": "dhx/hmi/ctrl",
+      "task_id": "lab-demo-001",
+      "round_no": 2,
+      "machineID": 1,
+      "test": {
+        "id": "lab-demo-001-R2",
+        "items": [
+          {
+            "number": 3,
+            "type": 2,
+            "parama": {
+              "startV": -0.3,
+              "endV": 0.3,
+              "scanRateMvPerS": 0.167
+            },
+            "machineID": 1
+          }
+        ]
+      }
+    },
+    {
+      "channel": "hmi_view",
+      "task_id": "lab-demo-001",
+      "round_no": 2,
+      "machineID": 1,
+      "device_state": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": "lab-demo-001",
+      "sample_id": 2,
+      "storage_slot": 1,
+      "task_no": 7,
+      "device_cmd": 7,
+      "round_no": 0,
+      "machine_id": 1
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 1
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_read",
+      "task_id": "lab-demo-001",
+      "device_cmd": 7,
+      "device_state": 2
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "task_id": 0,
+      "sample_id": 0,
+      "storage_slot": 0,
+      "task_no": 0,
+      "device_cmd": 0,
+      "round_no": 0,
+      "machine_id": 0
+    },
+    {
+      "channel": "plc_read",
+      "task_id": "lab-demo-001",
+      "task_state": 2,
+      "rw_flag": 1
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 2
+    },
+    {
+      "channel": "plc_read",
+      "rw_flag": 0
+    },
+    {
+      "channel": "plc_write",
+      "topic": "dhx/plc/write",
+      "rw_flag": 0
+    }
+  ],
+  "error": null,
+  "dispatcher_task_params": {
+    "base_setting": {
+      "sampleId": 2,
+      "storageSlotNo": 1,
+      "directDisassembly": false
+    },
+    "infos": [
+      {
+        "waitHour": 24,
+        "waitMinute": 0,
+        "waitSecond": 0,
+        "testParams": [
+          {
+            "number": 1,
+            "type": 0,
+            "parama": {
+              "temperatureC": 25.0
+            },
+            "machineID": 1
+          },
+          {
+            "number": 2,
+            "type": 1,
+            "parama": {
+              "highFrequencyHz": 100000,
+              "lowFrequencyHz": 0.01,
+              "amplitudeMv": 5
+            },
+            "machineID": 1
+          }
+        ]
+      },
+      {
+        "waitHour": 0,
+        "waitMinute": 5,
+        "waitSecond": 0,
+        "testParams": [
+          {
+            "number": 3,
+            "type": 2,
+            "parama": {
+              "startV": -0.3,
+              "endV": 0.3,
+              "scanRateMvPerS": 0.167
+            },
+            "machineID": 1
+          }
+        ]
+      }
+    ]
+  },
+  "rest_receipt": {
+    "taskId": "lab-demo-001",
+    "deviceName": 2,
+    "experimentName": 204,
+    "status": 0
+  },
+  "task_status_response": {
+    "taskId": "lab-demo-001",
+    "deviceName": 2,
+    "experimentName": 204,
+    "status": 2,
+    "resultSummary": "{\"experimentName\": 204, \"subType\": 33, \"curve\": {\"xAxis\": {\"name\": \"Z real\", \"unit\": \"ohm\", \"values\": [35.08131768, 35.11920677, 35.17477155, 35.25628281, 35.37590978, 35.55159009, 35.80983315, 36.18996321, 36.75062506, 37.57993038, 38.81162507, 40.65151654, 43.42190441, 47.63839409, 54.14584035, 64.36209757, 80.71252159, 107.3741489, 151.4170533, 224.08518, 340.7439837, 515.7320885, 748.6579296, 1010.738206, 1254.201785, 1443.748431, 1573.081073, 1654.5986, 1704.181535, 1734.155512, 1752.467257, 1763.856654, 1771.079557, 1775.742122, 1778.796495, 1780.820424]}, \"yAxis\": {\"name\": \"-Z imaginary\", \"unit\": \"ohm\", \"values\": [0.297049237, 0.4353210306, 0.6379433261, 0.9348495054, 1.369879791, 2.00722263, 2.940816831, 4.308048687, 6.309647734, 9.23845762, 13.52075413, 19.77493243, 28.89336468, 42.15302214, 61.35628234, 88.9880614, 128.3316827, 183.3753983, 258.0969902, 354.2980829, 466.9357869, 577.619869, 653.3157943, 662.1681042, 599.942, 494.1371445, 379.6972624, 278.7943533, 199.0333832, 139.6944732, 97.03950117, 66.98179195, 46.0502602, 31.57905725, 21.61950426, 14.78487532]}}}",
+    "parsed_result_summary": {
+      "experimentName": 204,
+      "subType": 33,
+      "curve": {
+        "xAxis": {
+          "name": "Z real",
+          "unit": "ohm",
+          "values": [
+            35.08131768,
+            35.11920677,
+            35.17477155,
+            35.25628281,
+            35.37590978,
+            35.55159009,
+            35.80983315,
+            36.18996321,
+            36.75062506,
+            37.57993038,
+            38.81162507,
+            40.65151654,
+            43.42190441,
+            47.63839409,
+            54.14584035,
+            64.36209757,
+            80.71252159,
+            107.3741489,
+            151.4170533,
+            224.08518,
+            340.7439837,
+            515.7320885,
+            748.6579296,
+            1010.738206,
+            1254.201785,
+            1443.748431,
+            1573.081073,
+            1654.5986,
+            1704.181535,
+            1734.155512,
+            1752.467257,
+            1763.856654,
+            1771.079557,
+            1775.742122,
+            1778.796495,
+            1780.820424
+          ]
+        },
+        "yAxis": {
+          "name": "-Z imaginary",
+          "unit": "ohm",
+          "values": [
+            0.297049237,
+            0.4353210306,
+            0.6379433261,
+            0.9348495054,
+            1.369879791,
+            2.00722263,
+            2.940816831,
+            4.308048687,
+            6.309647734,
+            9.23845762,
+            13.52075413,
+            19.77493243,
+            28.89336468,
+            42.15302214,
+            61.35628234,
+            88.9880614,
+            128.3316827,
+            183.3753983,
+            258.0969902,
+            354.2980829,
+            466.9357869,
+            577.619869,
+            653.3157943,
+            662.1681042,
+            599.942,
+            494.1371445,
+            379.6972624,
+            278.7943533,
+            199.0333832,
+            139.6944732,
+            97.03950117,
+            66.98179195,
+            46.0502602,
+            31.57905725,
+            21.61950426,
+            14.78487532
+          ]
+        }
+      }
+    }
+  },
+  "protocol_id": "P-demo-reference",
+  "formulation_id": "F-demo-reference"
+}

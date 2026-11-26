@@ -1,0 +1,59 @@
+{
+  "mode": "figure_value_transcription",
+  "source": "CorAL manuscript Figure 5f and its caption",
+  "value_scope": "Displayed inhibition-efficiency labels at their plotted precision.",
+  "difference_definition": "Substituted formulation IE minus the matched CTAB formulation IE, in percentage points.",
+  "formulations": [
+    {
+      "formulation": 1,
+      "composition_pct": {
+        "PST": 10,
+        "surfactant": 50,
+        "ZnSO4": 40
+      },
+      "plotted_ie_labels_pct": {
+        "CTAB": "92.5",
+        "TTAB": "91.4",
+        "DDBAB": "94.4"
+      },
+      "changes_from_ctab_pp": {
+        "TTAB": -1.1,
+        "DDBAB": 1.9
+      }
+    },
+    {
+      "formulation": 2,
+      "composition_pct": {
+        "PST": 25,
+        "surfactant": 20,
+        "ZnSO4": 55
+      },
+      "plotted_ie_labels_pct": {
+        "CTAB": "86.1",
+        "TTAB": "86.6",
+        "DDBAB": "87.0"
+      },
+      "changes_from_ctab_pp": {
+        "TTAB": 0.5,
+        "DDBAB": 0.9
+      }
+    },
+    {
+      "formulation": 3,
+      "composition_pct": {
+        "PST": 20,
+        "surfactant": 20,
+        "ZnSO4": 60
+      },
+      "plotted_ie_labels_pct": {
+        "CTAB": "88.62",
+        "TTAB": "89.4",
+        "DDBAB": "92.5"
+      },
+      "changes_from_ctab_pp": {
+        "TTAB": 0.78,
+        "DDBAB": 3.88
+      }
+    }
+  ]
+}

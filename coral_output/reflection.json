@@ -1,0 +1,139 @@
+{
+  "mode": "synthetic_fixture",
+  "paper_case_input": "examples/figure5_case_inputs.json",
+  "fixture_decision_trace": [
+    {
+      "trigger": "initial_feature_selection",
+      "reference_formulation_id": "F-demo-reference",
+      "reference_ie_pct": 77.27691919180239,
+      "best_trial_ie_pct": null,
+      "criterion_rules_before": [],
+      "criterion_rules_after": [
+        {
+          "descriptor": "logP",
+          "direction": "lower",
+          "tolerance": 1.7
+        }
+      ],
+      "added_pca_descriptors": [],
+      "target_group": 3,
+      "hypothesis": "A modest reduction in hydrophobicity may improve the balance between adsorption and zinc-species transport.",
+      "compared_trials": [],
+      "candidate_comparisons": [
+        {
+          "molecule_id": "M0021",
+          "name": "DTAB",
+          "values": {
+            "logP": 1.6175000000000002
+          },
+          "score": 0.49101607980112666,
+          "passes": true
+        },
+        {
+          "molecule_id": "M0022",
+          "name": "DDBAB",
+          "values": {
+            "logP": 3.1879000000000017
+          },
+          "score": -0.003146732118694947,
+          "passes": false
+        },
+        {
+          "molecule_id": "M0114",
+          "name": "TTAB",
+          "values": {
+            "logP": 2.3977000000000004
+          },
+          "score": 0.24550803990056339,
+          "passes": true
+        }
+      ],
+      "selected_candidates": [
+        "DTAB",
+        "TTAB"
+      ]
+    },
+    {
+      "trigger": "no_improvement_vs_matched_reference",
+      "reference_formulation_id": "F-demo-reference",
+      "reference_ie_pct": 77.27691919180239,
+      "best_trial_ie_pct": 76.27691919180239,
+      "criterion_rules_before": [
+        {
+          "descriptor": "logP",
+          "direction": "lower",
+          "tolerance": 1.7
+        }
+      ],
+      "criterion_rules_after": [
+        {
+          "descriptor": "logP",
+          "direction": "near",
+          "tolerance": 0.3
+        },
+        {
+          "descriptor": "RadiusOfGyration",
+          "direction": "lower",
+          "tolerance": null
+        },
+        {
+          "descriptor": "LabuteASA",
+          "direction": "higher",
+          "tolerance": null
+        }
+      ],
+      "added_pca_descriptors": [
+        {
+          "descriptor": "RadiusOfGyration",
+          "rank": 4,
+          "contribution": 0.5274911523529944
+        },
+        {
+          "descriptor": "LabuteASA",
+          "rank": 5,
+          "contribution": 0.48907837898087314
+        }
+      ],
+      "target_group": 3,
+      "hypothesis": "Comparable hydrophobicity, a more compact structure and higher surface exposure may improve interfacial packing.",
+      "compared_trials": [
+        {
+          "formulation_id": "F-demo-trial-1",
+          "components": [
+            "TSC",
+            "DTAB",
+            "Cys",
+            "ZnSO4"
+          ],
+          "fixture_ie_pct": 76.27691919180239
+        },
+        {
+          "formulation_id": "F-demo-trial-2",
+          "components": [
+            "TSC",
+            "TTAB",
+            "Cys",
+            "ZnSO4"
+          ],
+          "fixture_ie_pct": 75.27691919180239
+        }
+      ],
+      "candidate_comparisons": [
+        {
+          "molecule_id": "M0022",
+          "name": "DDBAB",
+          "values": {
+            "logP": 3.1879000000000017,
+            "RadiusOfGyration": 3.9094866542432256,
+            "LabuteASA": 155.3880421046923
+          },
+          "score": 0.1747428815462214,
+          "passes": true
+        }
+      ],
+      "selected_candidates": [
+        "DDBAB"
+      ]
+    }
+  ]
+}

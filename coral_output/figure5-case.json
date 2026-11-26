@@ -1,0 +1,159 @@
+{
+  "mode": "retrospective_rule_replay",
+  "comparison": "Figure 5f, Formulation 1",
+  "sources": {
+    "descriptors": "Displayed values in CorAL manuscript Figure 5d",
+    "initial_feedback": "Displayed CTAB and TTAB labels in Figure 5f (Formulation 1)",
+    "follow_up": "Displayed DDBAB label in Figure 5f (Formulation 1)"
+  },
+  "group": 3,
+  "reference": {
+    "surfactant": "CTAB",
+    "inhibition_efficiency_pct": 92.5
+  },
+  "initial_screen": {
+    "criteria": [
+      {
+        "descriptor": "logP",
+        "direction": "lower",
+        "tolerance": 1.7
+      }
+    ],
+    "comparisons": [
+      {
+        "candidate": "TTAB",
+        "score": 0.12641815235008108,
+        "checks": [
+          {
+            "descriptor": "logP",
+            "direction": "lower",
+            "tolerance": 1.7,
+            "reference_value": 6.17,
+            "candidate_value": 5.39,
+            "passes": true
+          }
+        ],
+        "passes": true
+      },
+      {
+        "candidate": "DDBAB",
+        "score": -0.0016207455429497223,
+        "checks": [
+          {
+            "descriptor": "logP",
+            "direction": "lower",
+            "tolerance": 1.7,
+            "reference_value": 6.17,
+            "candidate_value": 6.18,
+            "passes": false
+          }
+        ],
+        "passes": false
+      }
+    ],
+    "selected": "TTAB"
+  },
+  "feedback": {
+    "surfactant": "TTAB",
+    "inhibition_efficiency_pct": 91.4,
+    "delta_vs_reference_pp": -1.1,
+    "reassessment_triggered": true
+  },
+  "revised_screen": {
+    "criteria": [
+      {
+        "descriptor": "logP",
+        "direction": "near",
+        "tolerance": 0.3
+      },
+      {
+        "descriptor": "RadiusOfGyration",
+        "direction": "lower",
+        "tolerance": null
+      },
+      {
+        "descriptor": "LabuteASA",
+        "direction": "higher",
+        "tolerance": null
+      }
+    ],
+    "comparisons": [
+      {
+        "candidate": "DDBAB",
+        "score": 0.16327646080511762,
+        "checks": [
+          {
+            "descriptor": "logP",
+            "direction": "near",
+            "tolerance": 0.3,
+            "reference_value": 6.17,
+            "candidate_value": 6.18,
+            "passes": true
+          },
+          {
+            "descriptor": "RadiusOfGyration",
+            "direction": "lower",
+            "tolerance": null,
+            "reference_value": 5.98,
+            "candidate_value": 5.12,
+            "passes": true
+          },
+          {
+            "descriptor": "LabuteASA",
+            "direction": "higher",
+            "tolerance": null,
+            "reference_value": 188.29,
+            "candidate_value": 192.26,
+            "passes": true
+          }
+        ],
+        "passes": true
+      },
+      {
+        "candidate": "TTAB",
+        "score": -0.1252119968271569,
+        "checks": [
+          {
+            "descriptor": "logP",
+            "direction": "near",
+            "tolerance": 0.3,
+            "reference_value": 6.17,
+            "candidate_value": 5.39,
+            "passes": false
+          },
+          {
+            "descriptor": "RadiusOfGyration",
+            "direction": "lower",
+            "tolerance": null,
+            "reference_value": 5.98,
+            "candidate_value": 5.39,
+            "passes": true
+          },
+          {
+            "descriptor": "LabuteASA",
+            "direction": "higher",
+            "tolerance": null,
+            "reference_value": 188.29,
+            "candidate_value": 169.94,
+            "passes": false
+          }
+        ],
+        "passes": false
+      }
+    ],
+    "selected": "DDBAB"
+  },
+  "reported_follow_up": {
+    "surfactant": "DDBAB",
+    "inhibition_efficiency_pct": 94.4,
+    "delta_vs_reference_pp": 1.9
+  },
+  "input": {
+    "file": "figure5_case_inputs.json",
+    "sha256": "5ec1daf12f642cf7a187669c74e7cb588015fdfdc3ca6ea0f40aea31497fa513"
+  },
+  "catalog": {
+    "file": "molecular_descriptors.csv",
+    "sha256": "e4d4cd6f4bf5ced74ebb7a8424ec7d7ca8230f1f2470644dda6c4ee9d3eef325"
+  }
+}

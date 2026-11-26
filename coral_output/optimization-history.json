@@ -1,0 +1,349 @@
+{
+  "mode": "archived_measurement_summary",
+  "count_scope": "Rows in each supplementary table. Row counts describe each recorded trajectory.",
+  "round_mean": "Arithmetic mean of inhibition efficiency within each round, rounded to two decimal places.",
+  "bo_rows_with_matching_composition_and_ie_between_tables_3_and_5": 15,
+  "series": [
+    {
+      "name": "TSC Bayesian optimization",
+      "figure": "Figure 3e",
+      "source": {
+        "table": "Supplementary Table 3",
+        "file": "coral/data/tsc_bo.csv",
+        "sha256": "62ac93b664fa7df57b7917626ca00fd50320ed828d083037a951248994636d41"
+      },
+      "measurement_rows": 58,
+      "best_observation": {
+        "round": 4,
+        "inhibition_efficiency_pct": 88.24,
+        "source_row": 50,
+        "composition_pct": {
+          "TSC": 10.0,
+          "CTAB": 50.0,
+          "Cys": 0.0,
+          "ZnSO4": 40.0
+        }
+      },
+      "rounds": [
+        {
+          "round": 0,
+          "measurement_rows": 31,
+          "mean_ie_pct": 58.16,
+          "best_observation": {
+            "inhibition_efficiency_pct": 80.43,
+            "source_row": 5,
+            "composition_pct": {
+              "TSC": 20.0,
+              "CTAB": 40.0,
+              "Cys": 0.0,
+              "ZnSO4": 40.0
+            }
+          },
+          "cumulative_best_ie_pct": 80.43
+        },
+        {
+          "round": 1,
+          "measurement_rows": 5,
+          "mean_ie_pct": 72.08,
+          "best_observation": {
+            "inhibition_efficiency_pct": 79.44,
+            "source_row": 32,
+            "composition_pct": {
+              "TSC": 10.0,
+              "CTAB": 30.0,
+              "Cys": 0.0,
+              "ZnSO4": 60.0
+            }
+          },
+          "cumulative_best_ie_pct": 80.43
+        },
+        {
+          "round": 2,
+          "measurement_rows": 5,
+          "mean_ie_pct": 71.26,
+          "best_observation": {
+            "inhibition_efficiency_pct": 78.25,
+            "source_row": 41,
+            "composition_pct": {
+              "TSC": 0.0,
+              "CTAB": 15.0,
+              "Cys": 45.0,
+              "ZnSO4": 40.0
+            }
+          },
+          "cumulative_best_ie_pct": 80.43
+        },
+        {
+          "round": 3,
+          "measurement_rows": 5,
+          "mean_ie_pct": 76.94,
+          "best_observation": {
+            "inhibition_efficiency_pct": 86.2,
+            "source_row": 46,
+            "composition_pct": {
+              "TSC": 0.0,
+              "CTAB": 40.0,
+              "Cys": 20.0,
+              "ZnSO4": 40.0
+            }
+          },
+          "cumulative_best_ie_pct": 86.2
+        },
+        {
+          "round": 4,
+          "measurement_rows": 4,
+          "mean_ie_pct": 73.77,
+          "best_observation": {
+            "inhibition_efficiency_pct": 88.24,
+            "source_row": 50,
+            "composition_pct": {
+              "TSC": 10.0,
+              "CTAB": 50.0,
+              "Cys": 0.0,
+              "ZnSO4": 40.0
+            }
+          },
+          "cumulative_best_ie_pct": 88.24
+        },
+        {
+          "round": 5,
+          "measurement_rows": 4,
+          "mean_ie_pct": 63.98,
+          "best_observation": {
+            "inhibition_efficiency_pct": 86.31,
+            "source_row": 54,
+            "composition_pct": {
+              "TSC": 25.0,
+              "CTAB": 20.0,
+              "Cys": 0.0,
+              "ZnSO4": 55.0
+            }
+          },
+          "cumulative_best_ie_pct": 88.24
+        },
+        {
+          "round": 6,
+          "measurement_rows": 4,
+          "mean_ie_pct": 55.73,
+          "best_observation": {
+            "inhibition_efficiency_pct": 86.74,
+            "source_row": 57,
+            "composition_pct": {
+              "TSC": 0.0,
+              "CTAB": 20.0,
+              "Cys": 60.0,
+              "ZnSO4": 20.0
+            }
+          },
+          "cumulative_best_ie_pct": 88.24
+        }
+      ]
+    },
+    {
+      "name": "PST MecIns-guided redesign",
+      "figure": "Figure 4g",
+      "source": {
+        "table": "Supplementary Table 4",
+        "file": "coral/data/pst_mechanism.csv",
+        "sha256": "e1a50a41d54b61a384f0c8dc7df179f93e90d17b9103639f71a037a9a7d64d1d"
+      },
+      "measurement_rows": 14,
+      "best_observation": {
+        "round": 2,
+        "inhibition_efficiency_pct": 92.45,
+        "source_row": 11,
+        "composition_pct": {
+          "PST": 20.0,
+          "CTAB": 20.0,
+          "Cys": 0.0,
+          "ZnSO4": 60.0
+        }
+      },
+      "rounds": [
+        {
+          "round": 0,
+          "measurement_rows": 5,
+          "mean_ie_pct": 78.56,
+          "best_observation": {
+            "inhibition_efficiency_pct": 88.31,
+            "source_row": 5,
+            "composition_pct": {
+              "PST": 20.0,
+              "CTAB": 15.0,
+              "Cys": 0.0,
+              "ZnSO4": 65.0
+            }
+          },
+          "cumulative_best_ie_pct": 88.31
+        },
+        {
+          "round": 1,
+          "measurement_rows": 5,
+          "mean_ie_pct": 77.33,
+          "best_observation": {
+            "inhibition_efficiency_pct": 83.78,
+            "source_row": 9,
+            "composition_pct": {
+              "PST": 10.0,
+              "CTAB": 45.0,
+              "Cys": 0.0,
+              "ZnSO4": 45.0
+            }
+          },
+          "cumulative_best_ie_pct": 88.31
+        },
+        {
+          "round": 2,
+          "measurement_rows": 4,
+          "mean_ie_pct": 85.96,
+          "best_observation": {
+            "inhibition_efficiency_pct": 92.45,
+            "source_row": 11,
+            "composition_pct": {
+              "PST": 20.0,
+              "CTAB": 20.0,
+              "Cys": 0.0,
+              "ZnSO4": 60.0
+            }
+          },
+          "cumulative_best_ie_pct": 92.45
+        }
+      ]
+    },
+    {
+      "name": "PST Bayesian optimization",
+      "figure": "Supplementary Figure 2",
+      "source": {
+        "table": "Supplementary Table 5",
+        "file": "coral/data/pst_bo.csv",
+        "sha256": "3d8dab7593f19a4c9abbc5862df4cd1b82ce7f76a60a076a98fa184f256216f7"
+      },
+      "measurement_rows": 58,
+      "best_observation": {
+        "round": 5,
+        "inhibition_efficiency_pct": 92.45,
+        "source_row": 54,
+        "composition_pct": {
+          "PST": 20.0,
+          "CTAB": 20.0,
+          "Cys": 0.0,
+          "ZnSO4": 60.0
+        }
+      },
+      "rounds": [
+        {
+          "round": 0,
+          "measurement_rows": 31,
+          "mean_ie_pct": 66.06,
+          "best_observation": {
+            "inhibition_efficiency_pct": 86.47,
+            "source_row": 5,
+            "composition_pct": {
+              "PST": 20.0,
+              "CTAB": 40.0,
+              "Cys": 0.0,
+              "ZnSO4": 40.0
+            }
+          },
+          "cumulative_best_ie_pct": 86.47
+        },
+        {
+          "round": 1,
+          "measurement_rows": 5,
+          "mean_ie_pct": 77.63,
+          "best_observation": {
+            "inhibition_efficiency_pct": 81.0,
+            "source_row": 32,
+            "composition_pct": {
+              "PST": 10.0,
+              "CTAB": 30.0,
+              "Cys": 0.0,
+              "ZnSO4": 60.0
+            }
+          },
+          "cumulative_best_ie_pct": 86.47
+        },
+        {
+          "round": 2,
+          "measurement_rows": 5,
+          "mean_ie_pct": 69.51,
+          "best_observation": {
+            "inhibition_efficiency_pct": 78.25,
+            "source_row": 41,
+            "composition_pct": {
+              "PST": 0.0,
+              "CTAB": 15.0,
+              "Cys": 45.0,
+              "ZnSO4": 40.0
+            }
+          },
+          "cumulative_best_ie_pct": 86.47
+        },
+        {
+          "round": 3,
+          "measurement_rows": 5,
+          "mean_ie_pct": 77.02,
+          "best_observation": {
+            "inhibition_efficiency_pct": 86.2,
+            "source_row": 46,
+            "composition_pct": {
+              "PST": 0.0,
+              "CTAB": 40.0,
+              "Cys": 20.0,
+              "ZnSO4": 40.0
+            }
+          },
+          "cumulative_best_ie_pct": 86.47
+        },
+        {
+          "round": 4,
+          "measurement_rows": 4,
+          "mean_ie_pct": 75.36,
+          "best_observation": {
+            "inhibition_efficiency_pct": 91.2,
+            "source_row": 47,
+            "composition_pct": {
+              "PST": 25.0,
+              "CTAB": 20.0,
+              "Cys": 0.0,
+              "ZnSO4": 55.0
+            }
+          },
+          "cumulative_best_ie_pct": 91.2
+        },
+        {
+          "round": 5,
+          "measurement_rows": 4,
+          "mean_ie_pct": 68.43,
+          "best_observation": {
+            "inhibition_efficiency_pct": 92.45,
+            "source_row": 54,
+            "composition_pct": {
+              "PST": 20.0,
+              "CTAB": 20.0,
+              "Cys": 0.0,
+              "ZnSO4": 60.0
+            }
+          },
+          "cumulative_best_ie_pct": 92.45
+        },
+        {
+          "round": 6,
+          "measurement_rows": 4,
+          "mean_ie_pct": 54.16,
+          "best_observation": {
+            "inhibition_efficiency_pct": 86.74,
+            "source_row": 57,
+            "composition_pct": {
+              "PST": 0.0,
+              "CTAB": 20.0,
+              "Cys": 60.0,
+              "ZnSO4": 20.0
+            }
+          },
+          "cumulative_best_ie_pct": 92.45
+        }
+      ]
+    }
+  ]
+}

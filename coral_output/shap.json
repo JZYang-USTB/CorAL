@@ -1,0 +1,777 @@
+{
+  "mode": "archived_plotting_workbook",
+  "figure": "Figure 4e",
+  "source": {
+    "description": "Author SHAP plotting workbook",
+    "sheet": "Sheet1",
+    "shap_values_range": "A2:D51",
+    "composition_pct_range": "F2:I51",
+    "sha256": "96f8c76b74f5f9ee52b219b1ef91c31c7dcbb22da72f20360b081d2b262a2ee8"
+  },
+  "source_scope": "All saved plotting rows and their feature values at the precision available in the workbook.",
+  "feature_order": [
+    "TSC",
+    "CTAB",
+    "Cys",
+    "ZnSO4"
+  ],
+  "row_count": 50,
+  "mean_absolute_shap": {
+    "TSC": 1.5147,
+    "CTAB": 1.43454,
+    "Cys": 2.65275,
+    "ZnSO4": 2.16743
+  },
+  "rows": [
+    {
+      "workbook_row": 2,
+      "composition_pct": [
+        0,
+        10,
+        45,
+        45
+      ],
+      "shap_values": [
+        1.80051,
+        0.542,
+        1.61582,
+        2.20154
+      ]
+    },
+    {
+      "workbook_row": 3,
+      "composition_pct": [
+        0,
+        5,
+        55,
+        40
+      ],
+      "shap_values": [
+        1.6314,
+        0.0638053,
+        -1.32474,
+        0.213593
+      ]
+    },
+    {
+      "workbook_row": 4,
+      "composition_pct": [
+        0,
+        40,
+        0,
+        60
+      ],
+      "shap_values": [
+        0.156811,
+        -1.22061,
+        3.87166,
+        3.79351
+      ]
+    },
+    {
+      "workbook_row": 5,
+      "composition_pct": [
+        5,
+        15,
+        0,
+        80
+      ],
+      "shap_values": [
+        0.340909,
+        2.25622,
+        6.97965,
+        11.3731
+      ]
+    },
+    {
+      "workbook_row": 6,
+      "composition_pct": [
+        25,
+        30,
+        5,
+        40
+      ],
+      "shap_values": [
+        0.435069,
+        1.68299,
+        1.05875,
+        0.435504
+      ]
+    },
+    {
+      "workbook_row": 7,
+      "composition_pct": [
+        10,
+        10,
+        70,
+        10
+      ],
+      "shap_values": [
+        2.32953,
+        0.719094,
+        -2.35664,
+        -0.32242
+      ]
+    },
+    {
+      "workbook_row": 8,
+      "composition_pct": [
+        0,
+        20,
+        55,
+        25
+      ],
+      "shap_values": [
+        0.71256,
+        1.23161,
+        -1.64752,
+        -1.80338
+      ]
+    },
+    {
+      "workbook_row": 9,
+      "composition_pct": [
+        0,
+        35,
+        25,
+        40
+      ],
+      "shap_values": [
+        2.27222,
+        0.695217,
+        -1.40268,
+        0.519562
+      ]
+    },
+    {
+      "workbook_row": 10,
+      "composition_pct": [
+        20,
+        0,
+        20,
+        60
+      ],
+      "shap_values": [
+        -0.218065,
+        -2.1518,
+        -0.573864,
+        6.48161
+      ]
+    },
+    {
+      "workbook_row": 11,
+      "composition_pct": [
+        20,
+        60,
+        20,
+        0
+      ],
+      "shap_values": [
+        -0.552015,
+        0.0829823,
+        -2.17479,
+        -2.48417
+      ]
+    },
+    {
+      "workbook_row": 12,
+      "composition_pct": [
+        10,
+        10,
+        40,
+        40
+      ],
+      "shap_values": [
+        1.51396,
+        0.92032,
+        -0.608182,
+        -0.178521
+      ]
+    },
+    {
+      "workbook_row": 13,
+      "composition_pct": [
+        15,
+        35,
+        5,
+        45
+      ],
+      "shap_values": [
+        0.2294,
+        0.807402,
+        0.653692,
+        1.83416
+      ]
+    },
+    {
+      "workbook_row": 14,
+      "composition_pct": [
+        0,
+        15,
+        45,
+        40
+      ],
+      "shap_values": [
+        2.01533,
+        2.00959,
+        2.27916,
+        0.779054
+      ]
+    },
+    {
+      "workbook_row": 15,
+      "composition_pct": [
+        30,
+        30,
+        10,
+        30
+      ],
+      "shap_values": [
+        -0.913141,
+        1.09005,
+        -1.90733,
+        -2.31712
+      ]
+    },
+    {
+      "workbook_row": 16,
+      "composition_pct": [
+        0,
+        15,
+        70,
+        15
+      ],
+      "shap_values": [
+        -0.137564,
+        0.204635,
+        -4.86979,
+        -4.79106
+      ]
+    },
+    {
+      "workbook_row": 17,
+      "composition_pct": [
+        0,
+        40,
+        10,
+        50
+      ],
+      "shap_values": [
+        3.19353,
+        0.0908651,
+        -0.171771,
+        3.03968
+      ]
+    },
+    {
+      "workbook_row": 18,
+      "composition_pct": [
+        10,
+        30,
+        30,
+        30
+      ],
+      "shap_values": [
+        1.42972,
+        0.780889,
+        -2.36825,
+        -1.82684
+      ]
+    },
+    {
+      "workbook_row": 19,
+      "composition_pct": [
+        15,
+        45,
+        0,
+        40
+      ],
+      "shap_values": [
+        -0.192354,
+        -1.22428,
+        5.09877,
+        0.690292
+      ]
+    },
+    {
+      "workbook_row": 20,
+      "composition_pct": [
+        30,
+        0,
+        40,
+        30
+      ],
+      "shap_values": [
+        -0.750258,
+        -6.28565,
+        -2.32433,
+        -2.96091
+      ]
+    },
+    {
+      "workbook_row": 21,
+      "composition_pct": [
+        70,
+        10,
+        10,
+        10
+      ],
+      "shap_values": [
+        -13.0031,
+        0.25114,
+        -3.05868,
+        -4.00204
+      ]
+    },
+    {
+      "workbook_row": 22,
+      "composition_pct": [
+        0,
+        15,
+        80,
+        5
+      ],
+      "shap_values": [
+        0.753715,
+        1.33265,
+        1.20696,
+        0.678981
+      ]
+    },
+    {
+      "workbook_row": 23,
+      "composition_pct": [
+        10,
+        50,
+        20,
+        20
+      ],
+      "shap_values": [
+        2.28305,
+        1.21416,
+        -1.4608,
+        -1.97631
+      ]
+    },
+    {
+      "workbook_row": 24,
+      "composition_pct": [
+        20,
+        40,
+        20,
+        20
+      ],
+      "shap_values": [
+        -1.18878,
+        -2.61099,
+        -2.86077,
+        -3.01169
+      ]
+    },
+    {
+      "workbook_row": 25,
+      "composition_pct": [
+        0,
+        10,
+        50,
+        40
+      ],
+      "shap_values": [
+        0.847358,
+        -0.956077,
+        -7.33802,
+        -1.09575
+      ]
+    },
+    {
+      "workbook_row": 26,
+      "composition_pct": [
+        5,
+        50,
+        5,
+        40
+      ],
+      "shap_values": [
+        -0.769795,
+        1.81263,
+        1.76823,
+        0.834886
+      ]
+    },
+    {
+      "workbook_row": 27,
+      "composition_pct": [
+        10,
+        70,
+        10,
+        10
+      ],
+      "shap_values": [
+        2.23915,
+        1.24542,
+        -1.99519,
+        -3.27052
+      ]
+    },
+    {
+      "workbook_row": 28,
+      "composition_pct": [
+        20,
+        20,
+        0,
+        60
+      ],
+      "shap_values": [
+        -0.904001,
+        1.50703,
+        5.19601,
+        4.67497
+      ]
+    },
+    {
+      "workbook_row": 29,
+      "composition_pct": [
+        20,
+        20,
+        20,
+        40
+      ],
+      "shap_values": [
+        -0.455059,
+        -0.0352678,
+        -1.96879,
+        -0.338723
+      ]
+    },
+    {
+      "workbook_row": 30,
+      "composition_pct": [
+        10,
+        20,
+        20,
+        50
+      ],
+      "shap_values": [
+        1.13073,
+        -0.387068,
+        -2.01361,
+        1.43744
+      ]
+    },
+    {
+      "workbook_row": 31,
+      "composition_pct": [
+        30,
+        10,
+        30,
+        30
+      ],
+      "shap_values": [
+        0.00523983,
+        1.4138,
+        -0.951429,
+        -1.72419
+      ]
+    },
+    {
+      "workbook_row": 32,
+      "composition_pct": [
+        20,
+        35,
+        5,
+        40
+      ],
+      "shap_values": [
+        -0.0651514,
+        1.10444,
+        0.617483,
+        0.389636
+      ]
+    },
+    {
+      "workbook_row": 33,
+      "composition_pct": [
+        0,
+        25,
+        35,
+        40
+      ],
+      "shap_values": [
+        2.06483,
+        0.16479,
+        -5.92145,
+        -0.343338
+      ]
+    },
+    {
+      "workbook_row": 34,
+      "composition_pct": [
+        40,
+        40,
+        10,
+        10
+      ],
+      "shap_values": [
+        -3.9532,
+        -3.02033,
+        -3.47257,
+        -4.81808
+      ]
+    },
+    {
+      "workbook_row": 35,
+      "composition_pct": [
+        10,
+        30,
+        0,
+        60
+      ],
+      "shap_values": [
+        3.29552,
+        2.65989,
+        7.48188,
+        5.31227
+      ]
+    },
+    {
+      "workbook_row": 36,
+      "composition_pct": [
+        10,
+        10,
+        10,
+        70
+      ],
+      "shap_values": [
+        1.77063,
+        0.716191,
+        -1.04768,
+        6.25172
+      ]
+    },
+    {
+      "workbook_row": 37,
+      "composition_pct": [
+        30,
+        30,
+        30,
+        10
+      ],
+      "shap_values": [
+        -0.0236463,
+        1.10585,
+        -1.74688,
+        -2.54837
+      ]
+    },
+    {
+      "workbook_row": 38,
+      "composition_pct": [
+        10,
+        50,
+        0,
+        40
+      ],
+      "shap_values": [
+        3.2568,
+        1.47829,
+        6.73702,
+        0.852091
+      ]
+    },
+    {
+      "workbook_row": 39,
+      "composition_pct": [
+        20,
+        60,
+        0,
+        20
+      ],
+      "shap_values": [
+        -0.716199,
+        -0.136634,
+        4.10454,
+        -2.38727
+      ]
+    },
+    {
+      "workbook_row": 40,
+      "composition_pct": [
+        0,
+        0,
+        60,
+        40
+      ],
+      "shap_values": [
+        0.208618,
+        -7.41833,
+        -5.22527,
+        -1.12297
+      ]
+    },
+    {
+      "workbook_row": 41,
+      "composition_pct": [
+        40,
+        20,
+        40,
+        0
+      ],
+      "shap_values": [
+        -0.964331,
+        1.93513,
+        0.745325,
+        -0.252926
+      ]
+    },
+    {
+      "workbook_row": 42,
+      "composition_pct": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "shap_values": [
+        -1.55859,
+        1.59722,
+        -1.6544,
+        -1.69864
+      ]
+    },
+    {
+      "workbook_row": 43,
+      "composition_pct": [
+        20,
+        50,
+        30,
+        0
+      ],
+      "shap_values": [
+        0.0294239,
+        0.75129,
+        -1.41495,
+        -1.71781
+      ]
+    },
+    {
+      "workbook_row": 44,
+      "composition_pct": [
+        20,
+        20,
+        40,
+        20
+      ],
+      "shap_values": [
+        0.842486,
+        2.09944,
+        1.19382,
+        -0.281902
+      ]
+    },
+    {
+      "workbook_row": 45,
+      "composition_pct": [
+        20,
+        40,
+        0,
+        40
+      ],
+      "shap_values": [
+        -0.0285523,
+        0.124455,
+        6.14652,
+        1.43461
+      ]
+    },
+    {
+      "workbook_row": 46,
+      "composition_pct": [
+        40,
+        0,
+        40,
+        20
+      ],
+      "shap_values": [
+        -0.545593,
+        -4.86389,
+        -1.27578,
+        -1.85688
+      ]
+    },
+    {
+      "workbook_row": 47,
+      "composition_pct": [
+        0,
+        40,
+        20,
+        40
+      ],
+      "shap_values": [
+        4.16164,
+        0.712503,
+        0.2631,
+        1.62176
+      ]
+    },
+    {
+      "workbook_row": 48,
+      "composition_pct": [
+        0,
+        20,
+        60,
+        20
+      ],
+      "shap_values": [
+        1.0337,
+        2.1955,
+        -0.705613,
+        -0.518631
+      ]
+    },
+    {
+      "workbook_row": 49,
+      "composition_pct": [
+        50,
+        0,
+        20,
+        30
+      ],
+      "shap_values": [
+        1.05438,
+        -1.17225,
+        0.162148,
+        -1.69232
+      ]
+    },
+    {
+      "workbook_row": 50,
+      "composition_pct": [
+        5,
+        20,
+        35,
+        40
+      ],
+      "shap_values": [
+        -5.5582,
+        -0.755705,
+        -9.37805,
+        -1.5821
+      ]
+    },
+    {
+      "workbook_row": 51,
+      "composition_pct": [
+        15,
+        40,
+        5,
+        40
+      ],
+      "shap_values": [
+        -0.199125,
+        -0.888669,
+        0.237185,
+        0.596686
+      ]
+    }
+  ]
+}
